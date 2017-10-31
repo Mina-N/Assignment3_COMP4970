@@ -3,7 +3,9 @@
 To run main_driver.cpp, which contains the updated web crawler code from Assignment 1, place the main_driver.cpp, webcrawler.cpp, getWebPage.class, and webcrawler.h files in the same directory. Create a new directory on the same level as the previous four files named html_source. To compile and link the files, execute
 
  g++ -c webcrawler.cpp
+ 
  g++ -c main_driver.cpp
+ 
  g++ -o main_driver webcrawler.cpp main_driver.cpp
   
 To run main_driver.cpp, execute
