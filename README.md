@@ -7,6 +7,10 @@ To run main_driver.cpp, which contains the updated web crawler code from Assignm
  g++ -c main_driver.cpp
  
  g++ -o main_driver webcrawler.cpp main_driver.cpp
+ 
+ To compile grnn.cpp, execute
+ 
+ g++ -o grnn grnn.cpp
   
 To run main_driver.cpp, execute
 
