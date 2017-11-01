@@ -83,7 +83,7 @@ void char_extractor(string filename, int k) {
     char c;
     double unigram_count[95] = {0};
     double total_unigrams = 0;
-    string feature_vectors = "feature_vectors.txt";
+   // string feature_vectors = "feature_vectors.txt";
 
     ifstream in_text("html_source/" + filename);
 
@@ -99,10 +99,10 @@ void char_extractor(string filename, int k) {
 
     // Create and write to new text file containing relative frequencies
 
-    // string new_filename = filename.erase(filename.length() - 4, 4) + "_unigrams.txt";
-    // ofstream out_text("unigrams/" + new_filename);
+    string new_filename = filename.erase(filename.length() - 4, 4) + "_unigrams.txt";
+    ofstream out_text("unigrams/" + new_filename);
 
-    ofstream out_text(feature_vectors, ofstream::app);
+    //ofstream out_text(feature_vectors, ofstream::app);
     out_text << k;
 
     for (int i = 0; i < 95; i++) {
