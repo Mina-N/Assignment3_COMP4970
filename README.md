@@ -1,6 +1,6 @@
 # Assignment3_COMP4970
 
-To run main_driver.cpp, which contains the updated web crawler code from Assignment 1, place the main_driver.cpp, webcrawler.cpp, getWebPage.class, and webcrawler.h files in the same directory. Create a new directory on the same level as the previous four files named html_source. Created another new directory on the same level as html_source called unigrams. To compile and link the files, execute
+To run main_driver.cpp, which contains the updated web crawler code from Assignment 1, place the main_driver.cpp, webcrawler.cpp, getWebPage.class, webcrawler.h, and grnn.cpp files in the same directory. Create a new directory on the same level as the previous four files named html_source. Created another new directory on the same level as html_source called unigrams. To compile and link the files, execute
 
  g++ -c webcrawler.cpp
  
